@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b6e6c66-c7ca-470c-9dc7-65a9fa6404c4" name="Default" comment="" />
+    <list default="true" id="4b6e6c66-c7ca-470c-9dc7-65a9fa6404c4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RDHT/config" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RDHT/config" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunnableServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunnableServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RunnableServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-741">
@@ -36,6 +39,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/out/production/RDHT/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,10 +135,13 @@
       <find>nodeIndex</find>
       <find>configLinesArr</find>
       <find>findLocations</find>
-      <find>portNumber</find>
       <find>una</find>
       <find>Una</find>
+      <find>portNumber</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/Client.java" />
         <option value="$PROJECT_DIR$/src/testClass.java" />
         <option value="$PROJECT_DIR$/src/manualTest.java" />
-        <option value="$PROJECT_DIR$/out/production/RDHT/config" />
         <option value="$PROJECT_DIR$/src/simpleManualTest.java" />
         <option value="$PROJECT_DIR$/src/DHT.java" />
         <option value="$PROJECT_DIR$/src/twoPhase.java" />
@@ -142,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/Server.java" />
         <option value="$PROJECT_DIR$/src/RunnableBench.java" />
         <option value="$PROJECT_DIR$/src/testBench.java" />
+        <option value="$PROJECT_DIR$/out/production/RDHT/config" />
       </list>
     </option>
   </component>
@@ -160,6 +175,7 @@
     <option name="width" value="1404" />
     <option name="height" value="875" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -299,12 +315,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523562422380</updated>
-      <workItem from="1523645233817" duration="53330000" />
+      <workItem from="1523645233817" duration="53886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53330000" />
+    <option name="totallyTimeSpent" value="53886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1404" height="877" extended-state="6" />
@@ -320,7 +336,7 @@
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -492,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/RDHT/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -619,6 +628,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/RDHT/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
