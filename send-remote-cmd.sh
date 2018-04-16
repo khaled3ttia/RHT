@@ -7,11 +7,13 @@ echo "Missing cluster file!"
 exit
 fi
 
-identity_file = REPLACE_WITH_KEY_FILENAME
+##identity_file = "ece-403.pem"
+
 
 for server in $(cat $1); do
-    ssh -i $identity_file ec2-user@$server "$2"
+    ssh -i "ece-403.pem" ubuntu@$server "$2"
     echo "Command sent $server"
+   
 done
 echo "Done sent command $2"
 
