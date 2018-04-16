@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b6e6c66-c7ca-470c-9dc7-65a9fa6404c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send-remote-cmd.sh" beforeDir="false" afterPath="$PROJECT_DIR$/send-remote-cmd.sh" afterDir="false" />
-    </list>
+    <list default="true" id="4b6e6c66-c7ca-470c-9dc7-65a9fa6404c4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="config" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/production/RDHT/config">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -325,12 +322,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523562422380</updated>
-      <workItem from="1523645233817" duration="55085000" />
+      <workItem from="1523645233817" duration="55305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55085000" />
+    <option name="totallyTimeSpent" value="55305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1404" height="877" extended-state="6" />
@@ -650,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/RDHT/config">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
