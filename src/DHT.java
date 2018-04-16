@@ -178,20 +178,20 @@ public boolean keyIsHere(int key){
 public Object get(int k){
     Object value = false;
 
-//
-    AtomicBoolean locked = inUse.get(k);
-    if (locked != null){
-        while (locked.compareAndSet(false,true)){
-            value = dht.get(k);
-            locked.compareAndSet(true,false);
-            return value;
-        }
-    } else {
-        inUse.put(k,new AtomicBoolean(true));
-        value = dht.get(k);
-        inUse.get(k).compareAndSet(true,false);
-        return value;
-    }
+    value = dht.get(k);
+//    AtomicBoolean locked = inUse.get(k);
+//    if (locked != null){
+//        while (locked.compareAndSet(false,true)){
+//            value = dht.get(k);
+//            locked.compareAndSet(true,false);
+//            return value;
+//        }
+//    } else {
+//        inUse.put(k,new AtomicBoolean(true));
+//        value = dht.get(k);
+//        inUse.get(k).compareAndSet(true,false);
+//        return value;
+//    }
 
 return value;
 }
